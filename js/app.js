@@ -2,8 +2,8 @@
  * CLI
  * Simulating a command line interface with vanilla JS
  *
- * @version : 1.2.0
- * @author : Paulo Nunes (https://syndicatefx.com)
+ * @version : 1.3.0
+ * @author : Paulo Nunes (https://syndicatefx.com) mainly part of code by him, Hinson (hi.nsn.ga)
  * @demo : https://codepen.io/syndicatefx/pen/jPxXpz
  * @license: MIT
  */
@@ -113,3 +113,6 @@ window.onload = function() {
 		}
 	});
 };
+    var info = "You are using " + navigator.userAgent + ".";
+    document.getElementById("info").innerHTML = info;
+
